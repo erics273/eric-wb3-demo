@@ -10,8 +10,11 @@ public class BufferedReaderExample {
         //if we are reading a file it must be in a try/catch because it may not be there or accessible
         try {
 
+
+            String fileName = "famousquotes.txt";
+
             //read the file.
-            BufferedReader theFile = new BufferedReader( new FileReader("famousquotes.txt") );
+            BufferedReader theFile = new BufferedReader( new FileReader(fileName) );
 
             //create a variable that represents each line
             String line;
