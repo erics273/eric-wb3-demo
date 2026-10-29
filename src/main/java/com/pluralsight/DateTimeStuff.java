@@ -22,7 +22,10 @@ public class DateTimeStuff {
         LocalTime timeRightNow = LocalTime.now();
         System.out.println(timeRightNow.format(formatterWithTime));
 
+        //gets the current date and time
         LocalDateTime dateTimeNow = LocalDateTime.now();
+
+        //display the current date and time
         System.out.println(dateTimeNow.format(formatterWithDateAndTime));
         System.out.println(dateTimeNow.format(crazyFormat));
 
